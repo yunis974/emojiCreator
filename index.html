@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emoji Creator</title>
+</head>
+<body>
+
+    <h1>EMOJI CREATOR 😎🤙</h1>
+
+    <h2>Hi! Welcome to the emoji creator, made by yunis974🤙</h2>
+
+    <div id="EmojiCreate">
+        <div class="EmojiBtn" id="leftBtn">
+            <button id="BtnL1" onclick="decArray(0)"></button>
+
+            <button id="BtnL2" onclick="decArray(1)"></button>
+
+            <button id="BtnL3" onclick="decArray(2)"></button>
+
+        </div>
+        <canvas id="emojiCanvas" width="300" height="300"></canvas> 
+
+        <div class="EmojiBtn" id="rightBtn">
+            <button id="BtnR1" onclick="incArray(0)"></button>
+
+            <button id="BtnR2" onclick="incArray(1)"></button>
+
+            <button id="BtnR3" onclick="incArray(2)"></button>
+
+        </div>
+    </div>
+
+    <div id="controlBtn">
+
+       <!-- <button id="download" onclick="downloadImg()">download</button>--->
+        <button id="reset" onclick="resetCanvas()">reset</button>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
