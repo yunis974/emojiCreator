@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+#EmojiCreate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#LeftButtons{
+    justify-content: center;
+    display: flex;
+}
+
+.EmojiBtn{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EmojiBtn button{
+    height: 50px;
+    width: 50px;
+}
+
+#controlBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
